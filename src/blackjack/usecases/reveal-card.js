@@ -19,7 +19,7 @@ export const revealCard = (playerIndex) => {
     const scoreId = (playerIndex === cpuIndex) ? '#score-cpu' : `#score-${playerIndex}`;
     document.querySelector(scoreId).innerText = state.playerQty[playerIndex].score;
     const imgCard = document.createElement('img');
-    imgCard.src = `/pixel-blackjack/assets/cards/${takenCard}.png`;
+    imgCard.src = `/assets/cards/${takenCard}.png`;
     imgCard.classList.add('cards');
     if (state.playerQty[playerIndex].score > 21) {
         const panelId = (playerIndex === cpuIndex) ? 'panel-cpu' : `panel-${playerIndex}`;
