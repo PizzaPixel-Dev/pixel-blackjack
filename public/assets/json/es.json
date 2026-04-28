@@ -1,0 +1,11 @@
+{
+    "btnStart": "Iniciar",
+    "btnNewGame": "Nuevo Juego",
+    "btnTake": "Pedir carta",
+    "btnStop": "Detener",
+    "win": "🏆 FELICIDADES, GANASTE 🏆",
+    "lose": "💔 LO SIENTO, ESTA VEZ PERDISTE 💔",
+    "draw": "¡EMPATE!",
+    "player" : "JUGADOR",
+    "askPlayers" : "¿Cuántos Jugadores?"
+}

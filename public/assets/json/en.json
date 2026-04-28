@@ -1,0 +1,11 @@
+{
+    "btnStart": "Start",
+    "btnNewGame": "New Game",
+    "btnTake": "Hit",
+    "btnStop": "Stand",
+    "win": "🏆 CONGRATULATIONS, YOU WON 🏆",
+    "lose": "💔 SORRY, YOU LOST THIS TIME 💔",
+    "draw": "IT'S A TIE!",
+    "player" : "PLAYER",
+    "askPlayers" : "¿How many players?"
+}
