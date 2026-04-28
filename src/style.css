@@ -9,7 +9,7 @@ html, body {
 }
 
 body {
-    background-image: url(/public/assets/images/background.png);
+    background-image: url(/pixel-blackjack/public/assets/images/background.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -121,7 +121,7 @@ button:hover {
     max-width: 400px;
     height: auto;
     aspect-ratio: 3 / 1.13;
-    background-image: url('/public/assets/images/red-button.png');
+    background-image: url('/pixel-blackjack/public/assets/images/red-button.png');
     background-size: cover;
     background-position: center;
     background-color: transparent;
@@ -135,7 +135,7 @@ button:hover {
 
 #btnNewGame {
     height: 57px;
-    background-image: url('/public/assets/images/red-button.png');
+    background-image: url('/pixel-blackjack/public/assets/images/red-button.png');
     background-size: cover;
     background-position: center;
     background-color: transparent;
@@ -146,7 +146,7 @@ button:hover {
 
 #btnTake, #btnStop {
     height: 57px;
-    background-image: url('/public/assets/images/blue-button.png');
+    background-image: url('/pixel-blackjack/public/assets/images/blue-button.png');
     background-size: cover;
     background-position: center;
     background-color: transparent;
@@ -170,15 +170,15 @@ button:hover {
 }
 
 #btnEs {
-    background-image: url('/public/assets/images/es.png');
+    background-image: url('/pixel-blackjack/public/assets/images/es.png');
 }
 
 #btnEn {
-    background-image: url('/public/assets/images/en.png');
+    background-image: url('/pixel-blackjack/public/assets/images/en.png');
 }
 
 .players-btn {
-    background-image: url('/public/assets/images/red-button-small.png');
+    background-image: url('/pixel-blackjack/public/assets/images/red-button-small.png');
     background-size: cover;
     background-position: center;
     background-color: transparent;
@@ -349,7 +349,7 @@ button:hover {
    CARTEL DE RESULTADO
    ======================== */
 .resultSign {
-    background-image: url(/public/assets/images/dialog.png);
+    background-image: url(/pixel-blackjack/public/assets/images/dialog.png);
     background-size: cover;
     background-color: transparent;
     justify-items: center;

@@ -6,7 +6,7 @@ import { state } from "./game-state";
  * @param {String} lang | ej: 'es'
  */
 export const gameLang = (lang) => {
-        fetch(`/assets/json/${lang}.json`)
+        fetch(`/pixel-blackjack/assets/json/${lang}.json`)
             .then(response => response.json())
             .then(data => {
                 state.win = data.win;
